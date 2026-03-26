@@ -9,7 +9,42 @@
 <body>
 
 
-    <!-- 1ª Digitação (Aqui) -->
+    <!-- Construindo slider "Carroussel" do zero -->
+     <div class="container mt-3">
+        <div id="carouselExemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <!-- Primeiro item do Carroussel -->
+                <div class="carousel-item active">
+                    <img src="../burno.jpg" alt="slide-1" class="d-block w-100">
+                </div>
+
+                <!-- Segundo item do Carroussel -->
+                <div class="carousel-item active">
+                    <img src="../arrasca.jpeg" alt="slide-2" class="d-block w-100">
+                </div>
+
+                <!-- Terceiro item do Carroussel -->
+                <div class="carousel-item active">
+                    <img src="../gabigol.png" alt="slide-3" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Adicionando Botões de controle do Carrousel de retorno-->
+             <button class="carousel-control-prev" type="button" 
+             data-bs-target="#carouselExemplo" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon"></span>
+             </button>
+
+             <!-- Adicionando Botões de controle do Carrousel de avanço-->
+             <button class="carousel-control-next" type="button" 
+             data-bs-target="#carouselExemplo" data-bs-slide="next">
+             <span class="carousel-control-next-icon"></span>
+             </button>
+
+        </div>
+     </div>
+    
 
     
 
